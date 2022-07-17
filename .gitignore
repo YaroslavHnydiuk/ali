@@ -1,0 +1,8 @@
+.list-item:nth-child(2n + 1) {
+  background-color: orange;
+}
+
+/* The same with the alias */
+.list-item:nth-child(odd) {
+  background-color: orange;
+}
